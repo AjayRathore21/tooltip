@@ -5,6 +5,7 @@ const Tooltip = (props) => {
   const [active, setActive] = useState(false);
 
   const showTooltip = () => {
+    
     setActive(true);
   };
 
@@ -12,7 +13,7 @@ const Tooltip = (props) => {
     setActive(false);
   };
 
-//   console.log(props.position.top);
+
 
   return (
     <div>
@@ -23,8 +24,8 @@ const Tooltip = (props) => {
       >
         Hover over me
         {active ? (
-          <span className={`Tooltip-Tip ${props.position.left}`}>
-            Tooltip text
+          <span className={`Tooltip-Tip ${props.position.top}`}>
+           tootip is showing!!!!
           </span>
         ) : null}
       </div>

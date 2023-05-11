@@ -5,11 +5,11 @@ import Tooltip from './Tooltip';
 function App() {
 
  const tooltipPosition = {
-    top:"top",
-    bottom:"bottom",
-    left:'left',
-    right:'right'
-  }
+   top: "top",
+   bottom: "bottom",
+   left: "left",
+   right: "right",
+ };
 
 
 
